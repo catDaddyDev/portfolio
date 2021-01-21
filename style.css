@@ -29,8 +29,6 @@ hr {
   background-color: #000;
   border-color: #000;
   transform: rotate(45deg);
-  align-self: center;
-  
 }
 
 .middle-hr {
@@ -74,21 +72,6 @@ img {
 .wrapper {
   width: 300px;
   margin: auto;
-}
-
-.row {
-  width: 900px;
-  box-sizing: border-box;
-}
-
-.one-third {
-  width: 300px;
-  box-sizing: border-box;
-}
-
-.two-thirds {
-  width: 600px;
-  box-sizing: border-box;
 }
 
 .group {
