@@ -41,7 +41,7 @@ hr {
 }
 
 .right-align {
-  text-align: right;
+  align-self: flex-end;
 }
 
 h1, h2, h3 {
