@@ -59,6 +59,10 @@ p {
   width: 500px;
 }
 
+form input, textarea {
+  width: 100%;
+}
+
 /* ------ img styling ------- */
 img {
   width: 200px;
