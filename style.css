@@ -13,7 +13,6 @@ main {
   background-color: #C58323;
   margin: 50px;
   padding: 50px;
-  width: 600px;
 }
 
 footer {
@@ -93,11 +92,12 @@ img {
 
 .group {
   display: flex;
+  flex-direction: column;
 }
 
 .item {
   flex: 1;
-  justify-content: space-between;
+  align-items: center;
 }
 
 /*------ link display------ */
