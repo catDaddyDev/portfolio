@@ -15,24 +15,14 @@ main {
   padding: 50px;
 }
 
+section {
+  width: auto;
+}
+
 footer {
   border: 2px groove #000000;
   padding: 2px;
   margin-top: 50px;
-}
-
-hr {
-  height: 15px;
-  width: 15px;
-  margin-top: 50px;
-  margin-left: 600px;
-  background-color: #000;
-  border-color: #000;
-  transform: rotate(45deg);
-}
-
-.middle-hr {
-  margin-left: 600px;
 }
 
 /* ------text styling------- */
@@ -87,12 +77,13 @@ img {
 
 .item {
   flex: 1;
+  padding-bottom: 20px;
 }
 
 /* if veiwing on larger screen */
 @media all and (min-width: 800px;){
   .group {
-    flex-direction: row;
+    align-items: stretch;
   }
 }
 
