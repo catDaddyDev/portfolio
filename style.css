@@ -25,14 +25,14 @@ hr {
   height: 15px;
   width: 15px;
   margin-top: 50px;
-  margin-left: 300px;
+  margin-left: 600px;
   background-color: #000;
   border-color: #000;
   transform: rotate(45deg);
 }
 
 .middle-hr {
-  margin-left: 200px;
+  margin-left: 600px;
 }
 
 /* ------text styling------- */
