@@ -85,6 +85,13 @@ img {
   flex: 1;
 }
 
+/* if veiwing on larger screen */
+@media all and (min-width: 800px;){
+  .group {
+    flex-direction: row;
+  }
+}
+
 /*------ link display------ */
 a:link    {color: black; }
 a:visited {color: grey;  }
