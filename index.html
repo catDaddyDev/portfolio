@@ -12,8 +12,6 @@
 
 <!--Header-->
   <body>
-
-
     <header class="header-top">
       <div class="wrapper">
         <h1> Elliot Golden</h1>
@@ -49,14 +47,29 @@
 
         <hr>
       <!--Contact the developer-->
-        <footer>
+            <section>
+              <h2>Send me an e-mail:</h2>
+              <div class="group">
+                <div class="item">
+                  <form action="https://formspree.io/elliotjgolden@gmail.com" method="POST">
+                    <label for="user-name">Name:</label>
+                    <input id="user-name" type="text" name="name">
+                    <label for="user-email">Email:</label>
+                    <input id="user-email" type="text" name="email">
+                    <label for="user-message">Message:</label>
+                    <textarea id="user-message" name="message"></textarea>
+                    <button type="submit">Send</button>
+                  </form>
+                </div>
+              </div>
+            </section>
 
-              <h3 class="text-center">Get In Touch</h3>
+        <footer>
+              <h3 class="text-center">Other ways to get in touch: </h3>
 
             <ol class="list-inside">
               <li><a href="https://www.linkedin.com/in/elliot-golden-650251156/" target="_blank">LinkedIn</a></li>
               <li><a href="https://github.com/catdaddyDev" target="_blank">GitHub</a></li>
-              <li><a href="mailto:elliotjgolden@gmail.com" target="_blank">E-mail</a></li>
             </ol>
         </footer>
     </main>
