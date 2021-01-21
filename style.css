@@ -29,6 +29,7 @@ hr {
   background-color: #000;
   border-color: #000;
   transform: rotate(45deg);
+  align-self: center;
   
 }
 
