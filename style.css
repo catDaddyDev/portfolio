@@ -46,6 +46,7 @@ hr {
 
 h1, h2, h3 {
   font-family: 'Bookman Old Style';
+  text-align: center;
 }
 
 p {
